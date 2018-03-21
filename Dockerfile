@@ -2,7 +2,7 @@ FROM alpine:3.7
 
 ENV VERSION v2.6.2
 
-RUN apk --update add curl git bash
+RUN apk --update add curl git bash sshpass
 
 RUN curl -LO https://storage.googleapis.com/kubernetes-release/release/$(curl -s https://storage.googleapis.com/kubernetes-release/release/stable.txt)/bin/linux/amd64/kubectl
 RUN mv kubectl /usr/local/bin

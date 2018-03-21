@@ -8,6 +8,7 @@ git tag should always match the docker tag
 - `kubectl`
 - `git`
 - `curl`
+- `sshpass`
 
 ## Build image
 
